@@ -3,12 +3,14 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header class="flex h-15 p-l-10 justify-start items-center border-b-1 border-black-30">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="30" height="30" />
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
+  <header class="h-15 border-b-1 flex justify-start items-center border-light-900">
+    <div class="flex p-l-10 p-r-10 justify-start items-center page-w">
+      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="30" height="30" />
+      <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+      </nav>
+    </div>
   </header>
 
   <RouterView />
