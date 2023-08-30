@@ -16,6 +16,9 @@ dependencies:
     version: 4.2.4(vue@3.3.4)
 
 devDependencies:
+  '@unocss/preset-uno':
+    specifier: ^0.55.3
+    version: 0.55.3
   '@vitejs/plugin-vue':
     specifier: ^4.3.1
     version: 4.3.1(vite@4.4.9)(vue@3.3.4)
