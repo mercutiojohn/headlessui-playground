@@ -1,10 +1,16 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0;
 
   font-weight: normal;
+}
+
+button {
+  background: transparent;
+  background-image: none;
+  border: 0;
 }
 
 a,
