@@ -1,5 +1,6 @@
 <template>
-  <div class="fixed top-16 w-56 text-left">
+  <!-- <div class="fixed top-16 w-56 text-left"> -->
+  <div class="">
     <Menu as="div" class="relative inline-block text-left">
       <div>
         <MenuButton

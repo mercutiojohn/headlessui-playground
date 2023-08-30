@@ -7,12 +7,6 @@
   font-weight: normal;
 }
 
-button {
-  background: transparent;
-  background-image: none;
-  border: 0;
-}
-
 a,
 .green {
   text-decoration: none;

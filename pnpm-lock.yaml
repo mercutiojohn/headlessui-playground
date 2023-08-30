@@ -8,6 +8,9 @@ dependencies:
   '@headlessui/vue':
     specifier: ^1.7.16
     version: 1.7.16(vue@3.3.4)
+  '@unocss/reset':
+    specifier: ^0.55.3
+    version: 0.55.3
   pinia:
     specifier: ^2.1.6
     version: 2.1.6(vue@3.3.4)
@@ -19,6 +22,9 @@ dependencies:
     version: 4.2.4(vue@3.3.4)
 
 devDependencies:
+  '@unocss/postcss':
+    specifier: ^0.55.3
+    version: 0.55.3(postcss@8.4.29)
   '@unocss/preset-uno':
     specifier: ^0.55.3
     version: 0.55.3
@@ -775,7 +781,6 @@ packages:
 
   /@unocss/reset@0.55.3:
     resolution: {integrity: sha512-zl3mogr3z6huA5CHZggOljoYFQDTidEw5T6pGPahfHB5qS9DH0UGozg5T9UtYWiidHL3xqyv6ZU27nyIMnlnhg==}
-    dev: true
 
   /@unocss/scope@0.55.3:
     resolution: {integrity: sha512-h9OlxjXYwtASw8Lm/ucuWOIlrLFXHH9Cek17kPG3upWPKBMRQJl3GT18jTtPim0mqakhZY+8GQM1itHyOtHkSQ==}

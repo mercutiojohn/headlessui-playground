@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16",
+    "@unocss/reset": "^0.55.3",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@unocss/postcss": "^0.55.3",
     "@unocss/preset-uno": "^0.55.3",
     "@unocss/preset-wind": "^0.55.3",
     "@vitejs/plugin-vue": "^4.3.1",
